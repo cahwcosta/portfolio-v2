@@ -1,22 +1,23 @@
 import styled from 'styled-components';
 
 export const Experiencias = styled.section`
-  padding-top: 25.6rem;
+  padding: 25.6rem 4.2rem 0;
   margin-bottom: 100rem;
+  opacity: 0;
 `
 
 export const Content = styled.div`
-position: relative;
+  position: relative;
 `
 
 export const Trigger = styled.div`
-position: absolute;
-width: 100%;
-height: 250vh;
+  position: absolute;
+  width: 100%;
+  height: 250vh;
 `
 
 export const Pin = styled.div`
-position: relative;
+  position: relative;
 `
 
 export const Topics = styled.div`
@@ -56,7 +57,7 @@ export const Title = styled.p`
 `
 
 export const Texts = styled.div`
-position: relative;
+  position: relative;
   width: 100%;
 `
 

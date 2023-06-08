@@ -10,7 +10,7 @@ const ScrollTo = ({children, hash}: I.ScrollToProps) => {
   const handleScrollTo = () => {
     if (scrollToRef.current) {
       gsap.to(window, {
-        duration: 0.7,
+        duration: 0.6,
         scrollTo: {y: hash}
       });
     }

@@ -32,7 +32,7 @@ const Header = () => {
   }, [])
 
   return (
-    <S.Header>
+    <S.Header id={C.id}>
       <S.Container>
         <S.Texts>
           <S.TextLine>

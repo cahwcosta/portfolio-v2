@@ -1,4 +1,5 @@
 export default {
+  id: 'habilidades',
   title: 'Habilidades',
   subtitle: 'Algumas coisinhas que eu sei fazer.',
   cards: [

@@ -24,7 +24,7 @@ const Habilidades = () => {
   }, [])
 
   return (
-    <S.Habilidades>
+    <S.Habilidades id={C.id}>
       <Title isAnimated={true} title={C.title} subtitle={C.subtitle}/>
 
       <S.Cards ref={containerRef}>

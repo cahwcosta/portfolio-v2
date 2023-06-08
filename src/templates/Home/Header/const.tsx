@@ -1,4 +1,5 @@
 export default {
+  id: 'header',
   hello: "Olá!" ,
   name: <>Meu nome é <span>Ana Carolina</span>.</>,
   profission: "Desenvolvedora front-end.",
