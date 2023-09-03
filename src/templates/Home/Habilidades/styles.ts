@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Habilidades = styled.section``
+export const Habilidades = styled.section`
+padding-top: 100px;
+`
 
 export const Cards = styled.div`
   display: flex;

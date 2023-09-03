@@ -36,7 +36,7 @@ const NavbarMobile = () => {
       <S.Options ref={wrapperRef}>
         {C.options.map(option => (
           <ScrollTo key={option.hash} hash={option.hash}>
-            <S.Option>{option.text}</S.Option>
+            <S.Option onClick={handleActiveBurger}>{option.text}</S.Option>
           </ScrollTo>
         ))}
         <S.SwipeButtonContainer>

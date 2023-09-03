@@ -65,6 +65,7 @@ export const Topic = styled.div`
   padding-top: 2.7rem;
   position: absolute;
   width: 100%;
+  
   &:not(:first-child) {
     opacity: 0;
   }

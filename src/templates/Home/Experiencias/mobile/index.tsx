@@ -23,7 +23,7 @@ const Experiencias = () => {
   }, [])
 
   return (
-    <S.Experiencias ref={containerRef}>
+    <S.Experiencias id={C.id} ref={containerRef}>
       <S.Content ref={contentRef}>
         <Title isAnimated={true} title={C.title} subtitle={C.subtitle}/>
         <Select items={C.topics.map(topic => topic.title)}/>

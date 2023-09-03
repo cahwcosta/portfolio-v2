@@ -2,11 +2,6 @@ export default {
   logo: './imgs/logo.png',
   options: [
     {
-      text: 'Sobre mim',
-      hash: '#sobre-mim'
-    },
-
-    {
       text: 'Habilidades',
       hash: '#habilidades'
     },

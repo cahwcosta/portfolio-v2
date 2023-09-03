@@ -27,7 +27,7 @@ export const Options = styled.ul`
   align-items: center;
   list-style: none;
   justify-content: space-between;
-  width: 53.4rem;
+  width: 40rem;
 `
 
 export const Option = styled.li`

@@ -5,7 +5,7 @@ export const Header = styled.section`
   height: 100vh;
 
   @media (max-width: 600px) {
-    padding: 16.8rem 5rem 0rem;
+    padding: 12.8rem 5rem 0rem;
     margin-bottom: 10rem;
   }
 `
@@ -124,13 +124,15 @@ export const Button = styled.button`
 `
 
 export const Image = styled.img`
-  width: 45.6rem;
+  width: 48.6rem;
   height: 48.8rem;
   opacity: 0;
   transform: translateY(4rem);
 
   @media (max-width: 600px) {
-    width: 35.6rem;
+    width: 37.6rem;
     height: 38rem;
+    transform: translateY(2rem);
+    margin-top: 2rem;
   }
 `

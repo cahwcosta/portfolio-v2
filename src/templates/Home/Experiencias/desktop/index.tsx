@@ -26,6 +26,7 @@ const Experiencias = () => {
       delay: 1,
       duration: 0.8
     })
+    
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({
         scrollTrigger: {
@@ -63,7 +64,7 @@ const Experiencias = () => {
   }, [])
 
   return (
-    <S.Experiencias>
+    <S.Experiencias id={C.id}>
       <S.Content>
         <S.Trigger ref={triggerRef}/>
         <S.Pin ref={pinRef}>
